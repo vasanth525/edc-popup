@@ -1,4 +1,8 @@
-define(['exports', 'edc_base_ts'], (function (exports, edc_base_ts) { 'use strict';
+(function (global, factory) {
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('edc_base_ts')) :
+    typeof define === 'function' && define.amd ? define(['exports', 'edc_base_ts'], factory) :
+    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.edc_popup_ts = {}, global.edc_base_ts));
+})(this, (function (exports, edc_base_ts) { 'use strict';
 
     // import { ComponentBase } from "../../Base/component";
     //component

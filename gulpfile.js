@@ -70,7 +70,7 @@ gulp.task("bundle", async function () {
 
     await bundle.write({
         file: "./dist/bundle.js",
-        format: "amd",
+        format: "umd",
         name: packJson.name,
         sourcemap: false,
     });
