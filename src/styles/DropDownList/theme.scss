@@ -1,0 +1,50 @@
+@import "../fontawesome/scss/fontawesome.scss";
+@import "../fontawesome/scss/solid.scss";
+@import "../fontawesome/scss/brands.scss";
+
+// .user {
+//   @extend %fa-icon;
+//   @extend .fas;
+
+//   &:before {
+//     content: fa-content($fa-var-user);
+//   }
+// }
+
+// .twitter {
+//   @extend %fa-icon;
+//   @extend .fab;
+
+//   &:before {
+//     content: fa-content($fa-var-twitter);
+//   }
+// }
+
+
+.edc-slctag {
+    appearance: initial;
+    height: 35px;
+    width: 200px;
+    padding: 0 45px 0 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.edc-ddl-opt {
+    height: 25px;
+}
+
+.edc-ddl {
+    width: fit-content;
+    border: 1px solid rgb(177, 174, 174);
+    border-radius: 5px;
+}
+
+.edc-ddl-icon {
+    margin-left: -35px;
+    height: fit-content;
+    width: 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
